@@ -1,0 +1,45 @@
+
+.section {
+    width: 35%;
+    justify-content: space-between;
+    display: flex;
+    margin-top: 20px;
+}
+
+.redStyle {
+    border: red;
+    color: red;
+}
+.blueStyle {
+    border: blue;
+    color: blue;
+}
+
+#section-item {
+    border: 2px solid;
+    width: 25px;
+    text-align: center;
+    margin-left: 30px;
+}
+.section-number {
+    font-size: 24px;
+}
+.panelButton {
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+.btn {
+    background-color: #4caf50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-right: 10px;
+}

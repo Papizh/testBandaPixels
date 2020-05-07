@@ -1,0 +1,30 @@
+<div class="container">
+    <h3>Component №1</h3>
+    <div class="section">
+        <div class="section-number">First Number</div>
+        <div [ngClass]="{
+            'redStyle': firstNumber < 0,
+            'blueStyle': firstNumber > 0
+          }" id="section-item">{{firstNumber}}
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-number">Second Number</div>
+        <div [ngClass]="{
+            'redStyle': secondNumber < 0,
+            'blueStyle': secondNumber > 0
+          }" id="section-item">{{secondNumber}}</div>
+    </div>
+</div>
+
+
+
+<div class="panelButton">
+    <button class="btn" (click)="increase()">increase</button>
+    <button class="btn" (click)="decrease()">decrease</button>
+    <button class="btn" (click)='startStream()'>startStream</button>
+    <button class="btn" (click)='stopStream()'>stop </button>
+    <button class="btn" (click)='reset()'>reset</button>
+
+</div>
